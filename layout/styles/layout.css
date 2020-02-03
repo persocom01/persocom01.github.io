@@ -178,7 +178,7 @@ File: Layout CSS
 Settings are all different due to the optical similarity needed for different sized elements
 Delete this section if roundness is not wanted / required
 --------------------------------------------------------------------------------------------------------------- */
-.btn{border-radius:14px;}
+.btn{border-radius:0px;}
 #footer input, #footer button{border-radius:12px;}
 
 
@@ -316,7 +316,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#828BF4 !important;}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#828BF4; border-color:#828BF4;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#31B404; border-color:#31B404; color:#D8D8D8}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background-color:rgba(130,139,244,.3);/* #828BF4 */}
@@ -376,7 +376,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#828BF4 !important;}
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#828BF4; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#31B404; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(130,139,244,.5); border-color:rgba(130,139,244,.5);/* #828BF4 */}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#828BF4;}
 #mainav form select{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
