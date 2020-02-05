@@ -45,13 +45,22 @@ File: Layout CSS
 #pageintro{padding:200px 0;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto; text-transform:capitalize; text-align:center;}
-#pageintro h3{font-weight:bold; font-family:calibri,arial,helvetica;}
 #pageintro a{font-weight:bold;}
 /* #pageintro article p:first-of-type{margin:0 0 30px 0; padding:0; font-size:2rem;} */
-#pageintro .heading{font-size:5rem;}
+#pageintro .heading{font-size:5rem; font-weight:bold; font-family:calibri,arial,helvetica;}
+#pageintro .subtitle{text-transform:none;}
 #pageintro footer{margin-top:50px;}
 #pageintro footer .btn{padding:14px 25px 16px; font-size:1.2rem;}
 
+
+
+/* About
+--------------------------------------------------------------------------------------------------------------- */
+#about{padding:200px 0;}
+#about article{display:block; max-width:60%; margin:0 auto; text-transform:none; text-align:left;}
+#about .img_container{text-align:center;}
+#about .img_container a{color:#31B404;}
+#about .circle{border-radius:50%;}
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
