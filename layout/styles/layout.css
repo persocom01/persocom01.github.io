@@ -279,7 +279,7 @@ td{border-width:0 1px;}
 
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */
-.faico{margin:0; padding:0; list-style:none;}
+.faico{margin:0; padding:0; list-style:none; float:left;}
 .faico li{display:inline-block; margin:8px 5px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
 .faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
@@ -293,6 +293,8 @@ td{border-width:0 1px;}
 .faicon-linkedin:hover{background-color:#0E76A8;}
 .faicon-twitter:hover{background-color:#00ACEE;}
 .faicon-vk:hover{background-color:#4E658E;}
+.faicon-email:hover{background-color:#31B404;}
+.faicon-github:hover{background-color:#DF7401;}
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
