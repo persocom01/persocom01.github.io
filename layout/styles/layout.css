@@ -45,7 +45,6 @@ File: Layout CSS
 #pageintro{padding:20vh 0 7vh;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto; text-transform:capitalize; text-align:center;}
-#pageintro a{font-weight:bold;}
 /* #pageintro article p:first-of-type{margin:0 0 30px 0; padding:0; font-size:2rem;} */
 #pageintro .heading{font-size:5rem; font-weight:bold; font-family:calibri,arial,helvetica;}
 #pageintro .subtitle{text-transform:none;}
@@ -59,7 +58,6 @@ File: Layout CSS
 
 #about article{display:block; max-width:60%; margin:0 auto; text-transform:none; text-align:left;}
 #about .img_container{text-align:center;}
-#about .img_container a{color:#31B404;}
 .circle{border-radius:50%;}
 
 
@@ -359,7 +357,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#31B404 !important;}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
-.btn, .btn.inverse:hover, .btn.highlight:hover{color:#FFFFFF; background-color:#31B404; border-color:#31B404; color:#F7D358}
+.btn, .btn.inverse:hover, .btn.highlight:hover{color:#FFFFFF; background-color:#31B404; border-color:#31B404; color:#F7D358; font-weight:bold;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 .btn.highlight{color:inherit; background-color:transparent; border-color:#FFFFFF; color:#31B404;}
 
