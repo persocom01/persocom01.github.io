@@ -60,7 +60,7 @@ File: Layout CSS
 #about article{display:block; max-width:60%; margin:0 auto; text-transform:none; text-align:left;}
 #about .img_container{text-align:center;}
 #about .img_container a{color:#31B404;}
-#about .circle{border-radius:50%;}
+.circle{border-radius:50%;}
 
 
 /* Contact
@@ -69,6 +69,14 @@ File: Layout CSS
 
 #contact article{display:block; max-width:60%; margin:0 auto; text-transform:none; text-align:left;}
 #contact h6{text-transform:none; color:#31B404;}
+
+
+/* Resume
+--------------------------------------------------------------------------------------------------------------- */
+#resume{padding:20vh 0 7vh;}
+
+#resume article{display:block; max-width:100%; margin:0 auto; text-transform:none; text-align:left;}
+#resume h6{text-transform:none; color:#31B404;}
 
 
 /* Content Area
@@ -325,7 +333,9 @@ td{border-width:0 1px;}
 .faico .faicon-phone{color:inherit; background-color:rgba(255,255,255,.2);}
 .faico .faicon-phone{color:#FFFFFF;}
 .faico .faicon-phone{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+.faico .faicon-phone-number:hover{color:#DF7401;}
 .faicon-phone:hover{background-color:#DF7401;}
+
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
