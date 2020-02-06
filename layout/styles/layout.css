@@ -42,7 +42,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0;}
+#pageintro{padding:20vh 0 7vh;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto; text-transform:capitalize; text-align:center;}
 #pageintro a{font-weight:bold;}
@@ -53,14 +53,23 @@ File: Layout CSS
 #pageintro footer .btn{padding:14px 25px 16px; font-size:1.2rem;}
 
 
-
 /* About
 --------------------------------------------------------------------------------------------------------------- */
-#about{padding:200px 0;}
+#about{padding:20vh 0 7vh;}
+
 #about article{display:block; max-width:60%; margin:0 auto; text-transform:none; text-align:left;}
 #about .img_container{text-align:center;}
 #about .img_container a{color:#31B404;}
 #about .circle{border-radius:50%;}
+
+
+/* Contact
+--------------------------------------------------------------------------------------------------------------- */
+#contact{padding:20vh 0 7vh;}
+
+#contact article{display:block; max-width:60%; margin:0 auto; text-transform:none; text-align:left;}
+#contact h6{text-transform:none; color:#31B404;}
+
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
@@ -304,10 +313,19 @@ td{border-width:0 1px;}
 .faicon-facebook:hover{background-color:#3B5998;}
 .faicon-google-plus:hover{background-color:#DB4A39;}
 .faicon-linkedin:hover{background-color:#0E76A8;}
+.faico .faicon-linkedin-link{font-size:1rem; text-align:left; background-color:inherit;}
+.faico .faicon-linkedin-link:hover{color:#0E76A8;}
 .faicon-twitter:hover{background-color:#00ACEE;}
 .faicon-vk:hover{background-color:#4E658E;}
 .faicon-email:hover{background-color:#31B404;}
+.faico .faicon-email-link{font-size:1rem; text-align:left; background-color:inherit;}
+.faico .faicon-email-link:hover{color:#31B404;}
 .faicon-github:hover{background-color:#DF7401;}
+
+.faico .faicon-phone{color:inherit; background-color:rgba(255,255,255,.2);}
+.faico .faicon-phone{color:#FFFFFF;}
+.faico .faicon-phone{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
+.faicon-phone:hover{background-color:#DF7401;}
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
