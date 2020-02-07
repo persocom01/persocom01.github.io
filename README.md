@@ -1,6 +1,6 @@
 # persocom01.github.io
 
-This repository is for my personal portfolio website.
+Personal portfolio website.
 
 ## Optimization
 
