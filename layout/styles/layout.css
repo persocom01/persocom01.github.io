@@ -70,11 +70,20 @@ File: Layout CSS
 #contact h6{text-transform:none; color:#31B404;}
 
 
+/* Portfolio
+--------------------------------------------------------------------------------------------------------------- */
+#portfolio{padding:20vh 0 7vh;}
+
+#portfolio article{display:block; max-width:80%; margin:0 auto; text-transform:none; text-align:left;}
+#portfolio h6{text-transform:none; color:#31B404;}
+#portfolio .btn{padding:14px 25px 16px; font-size:1.2rem;}
+
+
 /* Resume
 --------------------------------------------------------------------------------------------------------------- */
 #resume{padding:20vh 0 7vh;}
 
-#resume article{display:block; max-width:100%; margin:0 auto; text-transform:none; text-align:left;}
+#resume article{display:block; max-width:80%; margin:0 auto; text-transform:none; text-align:left;}
 #resume h6{text-transform:none; color:#31B404;}
 #resume .btn{padding:14px 25px 16px; font-size:1.2rem;}
 
