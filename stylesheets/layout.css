@@ -370,7 +370,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#31B404 !important;}
 
 .btn, .btn.inverse:hover, .btn.highlight:hover{color:#F7D358; background-color:#31B404; border-color:#31B404; font-weight:bold;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
-.btn.highlight{color:inherit; background-color:transparent; border-color:#FFFFFF; color:#31B404;}
+.btn.highlight{color:#31B404; background-color:transparent; border-color:#FFFFFF;}
 
 .imgover:hover::before{background-color:rgba(49,180,4,.3);/* #31B404 */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
